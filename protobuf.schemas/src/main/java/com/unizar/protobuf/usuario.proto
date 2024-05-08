@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.unizar.protobuf;
+
+message Usuario {
+  string nombre = 1;
+  string correo = 2;
+  string rol = 3;
+}
+
+message CambioRolRequest {
+  string email = 1;
+  string nuevo_rol = 2;
+}
+
+message CambioRolResponse {
+  bool exitoso = 1;
+  string mensaje = 2;
+}
+
+service ServicioCambioRol {
+  rpc CambiarRol(CambioRolRequest) returns (CambioRolResponse);
+}

@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package com.unizar.protobuf;
+
+import "usuario.proto";
+
+message AdscripcionDepartamento {
+    repeated Usuario usuarios = 1;
+}
+message Departamento {
+    string id = 1;
+    string tipo = 2;
+    AdscripcionDepartamento adscripciones = 3;
+}
+
+message AdscripcionRequest{
+    string id = 1;
+    string email = 2;
+}
+
+message AdscripcionResponse {
+  bool exitoso = 1;
+  string mensaje = 2;
+}
+
+message DesasignacionRequest {
+    string id = 1;
+    string email = 2;
+}
+
+message DesasignacionResponse {
+    bool exitoso = 1;
+    string mensaje = 2;
+}
+
+service ServicioAdscripcionDepartamento {
+  rpc AdscripcionDepartamento(AdscripcionRequest) returns (AdscripcionResponse);
+  rpc DesasignarDepartamento(DesasignacionRequest) returns (DesasignacionResponse);
+}

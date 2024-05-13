@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.protobufs.schemas.AppTest" time="0.059" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.protobufs.schemas.AppTest" time="0.058" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/21.0.2-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/protobuf-schemas/protobuf.schemas/target/surefire/surefirebooter9384667934070369218.jar /workspaces/protobuf-schemas/protobuf.schemas/target/surefire 2024-05-08T14-11-23_186-jvmRun1 surefire11537094123628131276tmp surefire_012873395620397576881tmp"/>
+    <property name="sun.java.command" value="/workspaces/protobuf-schemas/protobuf.schemas/target/surefire/surefirebooter13399384046984878207.jar /workspaces/protobuf-schemas/protobuf.schemas/target/surefire 2024-05-10T17-26-59_181-jvmRun1 surefire13862325183014698470tmp surefire_09858739807739726530tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/protobuf-schemas/protobuf.schemas/target/test-classes:/workspaces/protobuf-schemas/protobuf.schemas/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.jar:/home/codespace/.m2/repository/com/google/protobuf/protobuf-java/3.18.1/protobuf-java-3.18.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/protobuf-schemas/protobuf.schemas/target/surefire/surefirebooter9384667934070369218.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/protobuf-schemas/protobuf.schemas/target/surefire/surefirebooter13399384046984878207.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -53,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.protobufs.schemas.AppTest" time="0.027"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.protobufs.schemas.AppTest" time="0.024"/>
 </testsuite>
